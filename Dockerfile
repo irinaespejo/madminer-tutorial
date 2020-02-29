@@ -57,10 +57,6 @@ RUN echo "install Delphes" | ${HOME}/software/${MG_VERSION}/bin/mg5_aMC
 
 RUN pip install --upgrade pip && pip install --no-cache-dir notebook==5.* && pip install PyYAML  && pip install madminer
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 650328ba43b1bfdf2fd0598579c3bb9e4848d9c6
 #
 # code tutorial
 #
