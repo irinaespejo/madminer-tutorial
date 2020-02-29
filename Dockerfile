@@ -66,6 +66,11 @@ WORKDIR ${HOME}
 COPY dependencies/code/ ./code
 RUN chmod 755 -R ./code
 
+#
+# code tutorial
+#
+COPY . ${HOME}
+
 
 #
 # change permissions of home
