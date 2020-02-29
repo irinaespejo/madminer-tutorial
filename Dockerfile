@@ -59,14 +59,6 @@ RUN pip install --upgrade pip && pip install --no-cache-dir notebook==5.* && pip
 
 
 #
-# code  wflow
-#
-
-WORKDIR ${HOME}
-COPY dependencies/code/ ./code
-RUN chmod 755 -R ./code
-
-#
 # code tutorial
 #
 COPY . ${HOME}
